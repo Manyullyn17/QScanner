@@ -9,6 +9,8 @@ class ScannerGUI : public QWidget, private Ui::ScannerGUI
 
 public:
     explicit ScannerGUI(QWidget *parent = nullptr);
+private slots:
+    void on_startButton_clicked();
 };
 
 #endif // SCANNERGUI_H
